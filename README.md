@@ -30,7 +30,7 @@ The agent avoids hardcoded variables by employing a multi-turn reasoning workflo
 2. **Configure Environment Variables (`.env`):**
    ```env
    GROQ_API_KEY=your_groq_api_key_here
-   DATABASE_URL=postgresql+psycopg2://postgres:123@localhost:5432/employee_db
+   DATABASE_URL=postgresql+psycopg2://username:password@localhost:5432/dbname
    ```
 
 3. **Launch the Engine Service:**
